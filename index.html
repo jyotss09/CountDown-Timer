@@ -1,0 +1,39 @@
+<!-- parseInt likewise -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <body>
+        <div class="timer-wrap" style="margin-bottom: 20px;">
+            <h1 style="font-size: larger;">A Simple Countdown Timer</h1>
+            <i class="time">0:0:0</i>
+            <div class="timer">
+                <span>0</span> : <span>0</span> : <span>0</span>
+            </div>
+        </div>
+        <center>
+            <label for="hour">Hours</label>
+            <input type="number" min="0" id="hour" value="0"><br>
+            <label for="mins">Minutes</label>
+            <input type="number" min="0" id="mins" value="0"><br>
+            <label for="secs">Seconds</label>
+            <input type="number" min="0" id="secs" value="0" max="60" class="validation"><br>
+            <br>
+            <br>
+            <button type="button" id="start">Start</button>
+            <button type="button" id="stop">Stop</button>
+            <button type="reset" id="reset">Reset</button>
+        </center>
+        
+        
+        <script src="./script.js"></script>
+</body>
+</html>
